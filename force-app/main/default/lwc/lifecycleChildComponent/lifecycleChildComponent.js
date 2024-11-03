@@ -20,7 +20,7 @@ export default class LifecycleChildComponent extends LightningElement {
         console.log('The child component has disconnected from the DOM');
         // console.log('The component\'s name is ' + this.componentName);
         alert('The child component has disconnected from the DOM');
-    }
+    } 
 }
 
 
