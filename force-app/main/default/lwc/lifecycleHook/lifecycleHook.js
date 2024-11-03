@@ -32,15 +32,10 @@ export default class LifecycleHook extends LightningElement {
 
     }
 
-   /* loadData(){
-
-    }
-
-    render(){
-        console.log('The component has rendered');
-    }
+  
 
      disconnectedCallback(){
+        alert('parent component disconnected, disconnected callback called');
         console.log('The component has disconnected from the DOM');
         // console.log('The component\'s name is ' + this.componentName);
 
@@ -50,5 +45,5 @@ export default class LifecycleHook extends LightningElement {
          console.log('The component has an error');
         // console.log('The component\'s name is ' + this.componentName);
     }
-    */
+    
 }
